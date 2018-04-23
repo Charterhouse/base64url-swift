@@ -1,0 +1,6 @@
+framework module Pods_base64url {
+  umbrella header "Pods-base64url-umbrella.h"
+
+  export *
+  module * { export * }
+}

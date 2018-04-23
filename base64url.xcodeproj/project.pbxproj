@@ -10,6 +10,9 @@
 		5CEE0DDB208E2923005C191C /* base64url.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEE0DD1208E2923005C191C /* base64url.framework */; };
 		5CEE0DE0208E2923005C191C /* base64urlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE0DDF208E2923005C191C /* base64urlTests.swift */; };
 		5CEE0DE2208E2923005C191C /* base64url.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEE0DD4208E2923005C191C /* base64url.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CEE0DED208E2D1F005C191C /* base64url.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE0DEC208E2D1F005C191C /* base64url.podspec */; };
+		6607ADA7D8920A8C2CD73922 /* Pods_base64url.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD581277CE226E322D490831 /* Pods_base64url.framework */; };
+		AB84A2C4E77E01296D0B2173 /* Pods_base64url_base64urlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D859850EC154D8F2D399A67 /* Pods_base64url_base64urlTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F52ED4ADA20B37413D792CD /* Pods-base64url-base64urlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base64url-base64urlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D859850EC154D8F2D399A67 /* Pods_base64url_base64urlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_base64url_base64urlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3AE8FF45C2C458B6D217BE /* Pods-base64url.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base64url.debug.xcconfig"; path = "Pods/Target Support Files/Pods-base64url/Pods-base64url.debug.xcconfig"; sourceTree = "<group>"; };
 		5CEE0DD1208E2923005C191C /* base64url.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = base64url.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEE0DD4208E2923005C191C /* base64url.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base64url.h; sourceTree = "<group>"; };
 		5CEE0DD5208E2923005C191C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CEE0DDA208E2923005C191C /* base64urlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = base64urlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEE0DDF208E2923005C191C /* base64urlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = base64urlTests.swift; sourceTree = "<group>"; };
 		5CEE0DE1208E2923005C191C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEE0DEB208E2C35005C191C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5CEE0DEC208E2D1F005C191C /* base64url.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = base64url.podspec; sourceTree = "<group>"; };
+		A48F4655DD61C3B7D1FE51CA /* Pods-base64url.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base64url.release.xcconfig"; path = "Pods/Target Support Files/Pods-base64url/Pods-base64url.release.xcconfig"; sourceTree = "<group>"; };
+		AE18AAF79FE3EAA3F9ED2CC8 /* Pods-base64url-base64urlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base64url-base64urlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD581277CE226E322D490831 /* Pods_base64url.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_base64url.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6607ADA7D8920A8C2CD73922 /* Pods_base64url.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +56,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CEE0DDB208E2923005C191C /* base64url.framework in Frameworks */,
+				AB84A2C4E77E01296D0B2173 /* Pods_base64url_base64urlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1788A5D0DB193F2FDBBE722E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F3AE8FF45C2C458B6D217BE /* Pods-base64url.debug.xcconfig */,
+				A48F4655DD61C3B7D1FE51CA /* Pods-base64url.release.xcconfig */,
+				AE18AAF79FE3EAA3F9ED2CC8 /* Pods-base64url-base64urlTests.debug.xcconfig */,
+				3F52ED4ADA20B37413D792CD /* Pods-base64url-base64urlTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5CEE0DC7208E2923005C191C = {
 			isa = PBXGroup;
 			children = (
+				5CEE0DEB208E2C35005C191C /* Podfile */,
+				5CEE0DEC208E2D1F005C191C /* base64url.podspec */,
 				5CEE0DD3208E2923005C191C /* base64url */,
 				5CEE0DDE208E2923005C191C /* base64urlTests */,
 				5CEE0DD2208E2923005C191C /* Products */,
+				1788A5D0DB193F2FDBBE722E /* Pods */,
+				BAB2F2156B0504986762C3A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +114,15 @@
 			path = base64urlTests;
 			sourceTree = "<group>";
 		};
+		BAB2F2156B0504986762C3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD581277CE226E322D490831 /* Pods_base64url.framework */,
+				4D859850EC154D8F2D399A67 /* Pods_base64url_base64urlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CEE0DE5208E2923005C191C /* Build configuration list for PBXNativeTarget "base64url" */;
 			buildPhases = (
+				49CE205289C7CF752F223C58 /* [CP] Check Pods Manifest.lock */,
 				5CEE0DCC208E2923005C191C /* Sources */,
 				5CEE0DCD208E2923005C191C /* Frameworks */,
 				5CEE0DCE208E2923005C191C /* Headers */,
@@ -122,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CEE0DE8208E2923005C191C /* Build configuration list for PBXNativeTarget "base64urlTests" */;
 			buildPhases = (
+				999938B34BA291764F75DCB6 /* [CP] Check Pods Manifest.lock */,
 				5CEE0DD6208E2923005C191C /* Sources */,
 				5CEE0DD7208E2923005C191C /* Frameworks */,
 				5CEE0DD8208E2923005C191C /* Resources */,
+				5C9513DD881E2EC5B35C2BF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEE0DED208E2D1F005C191C /* base64url.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +229,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49CE205289C7CF752F223C58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-base64url-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9513DD881E2EC5B35C2BF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		999938B34BA291764F75DCB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-base64url-base64urlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CEE0DCC208E2923005C191C /* Sources */ = {
@@ -338,6 +438,7 @@
 		};
 		5CEE0DE6208E2923005C191C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3AE8FF45C2C458B6D217BE /* Pods-base64url.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -347,11 +448,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = base64url/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = base64url.base64url;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -362,6 +459,7 @@
 		};
 		5CEE0DE7208E2923005C191C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48F4655DD61C3B7D1FE51CA /* Pods-base64url.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -371,11 +469,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = base64url/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = base64url.base64url;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -386,14 +480,11 @@
 		};
 		5CEE0DE9208E2923005C191C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE18AAF79FE3EAA3F9ED2CC8 /* Pods-base64url-base64urlTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = base64urlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = base64url.base64urlTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -403,14 +494,11 @@
 		};
 		5CEE0DEA208E2923005C191C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F52ED4ADA20B37413D792CD /* Pods-base64url-base64urlTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = base64urlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = base64url.base64urlTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
