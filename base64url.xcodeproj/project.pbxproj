@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5CEE0DDB208E2923005C191C /* base64url.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEE0DD1208E2923005C191C /* base64url.framework */; };
-		5CEE0DE0208E2923005C191C /* base64urlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE0DDF208E2923005C191C /* base64urlTests.swift */; };
 		5CEE0DE2208E2923005C191C /* base64url.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEE0DD4208E2923005C191C /* base64url.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CEE0DED208E2D1F005C191C /* base64url.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE0DEC208E2D1F005C191C /* base64url.podspec */; };
+		5CEE0DEF208E2F06005C191C /* Base64urlSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE0DEE208E2F06005C191C /* Base64urlSpec.swift */; };
+		5CEE0DF1208E2F2A005C191C /* Base64url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE0DF0208E2F2A005C191C /* Base64url.swift */; };
 		6607ADA7D8920A8C2CD73922 /* Pods_base64url.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD581277CE226E322D490831 /* Pods_base64url.framework */; };
 		AB84A2C4E77E01296D0B2173 /* Pods_base64url_base64urlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D859850EC154D8F2D399A67 /* Pods_base64url_base64urlTests.framework */; };
 /* End PBXBuildFile section */
@@ -33,10 +34,11 @@
 		5CEE0DD4208E2923005C191C /* base64url.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base64url.h; sourceTree = "<group>"; };
 		5CEE0DD5208E2923005C191C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CEE0DDA208E2923005C191C /* base64urlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = base64urlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CEE0DDF208E2923005C191C /* base64urlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = base64urlTests.swift; sourceTree = "<group>"; };
 		5CEE0DE1208E2923005C191C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CEE0DEB208E2C35005C191C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5CEE0DEC208E2D1F005C191C /* base64url.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = base64url.podspec; sourceTree = "<group>"; };
+		5CEE0DEE208E2F06005C191C /* Base64urlSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64urlSpec.swift; sourceTree = "<group>"; };
+		5CEE0DF0208E2F2A005C191C /* Base64url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64url.swift; sourceTree = "<group>"; };
 		A48F4655DD61C3B7D1FE51CA /* Pods-base64url.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base64url.release.xcconfig"; path = "Pods/Target Support Files/Pods-base64url/Pods-base64url.release.xcconfig"; sourceTree = "<group>"; };
 		AE18AAF79FE3EAA3F9ED2CC8 /* Pods-base64url-base64urlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base64url-base64urlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD581277CE226E322D490831 /* Pods_base64url.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_base64url.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 		5CEE0DD3208E2923005C191C /* base64url */ = {
 			isa = PBXGroup;
 			children = (
+				5CEE0DF0208E2F2A005C191C /* Base64url.swift */,
 				5CEE0DD4208E2923005C191C /* base64url.h */,
 				5CEE0DD5208E2923005C191C /* Info.plist */,
 			);
@@ -108,7 +111,7 @@
 		5CEE0DDE208E2923005C191C /* base64urlTests */ = {
 			isa = PBXGroup;
 			children = (
-				5CEE0DDF208E2923005C191C /* base64urlTests.swift */,
+				5CEE0DEE208E2F06005C191C /* Base64urlSpec.swift */,
 				5CEE0DE1208E2923005C191C /* Info.plist */,
 			);
 			path = base64urlTests;
@@ -188,6 +191,7 @@
 				TargetAttributes = {
 					5CEE0DD0208E2923005C191C = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					5CEE0DD9208E2923005C191C = {
 						CreatedOnToolsVersion = 9.3;
@@ -294,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEE0DF1208E2F2A005C191C /* Base64url.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEE0DE0208E2923005C191C /* base64urlTests.swift in Sources */,
+				5CEE0DEF208E2F06005C191C /* Base64urlSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F3AE8FF45C2C458B6D217BE /* Pods-base64url.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -448,10 +454,15 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = base64url/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = base64url.base64url;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A48F4655DD61C3B7D1FE51CA /* Pods-base64url.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -469,7 +481,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = base64url/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = base64url.base64url;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -482,9 +498,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE18AAF79FE3EAA3F9ED2CC8 /* Pods-base64url-base64urlTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = base64urlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = base64url.base64urlTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -496,9 +517,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F52ED4ADA20B37413D792CD /* Pods-base64url-base64urlTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = base64urlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = base64url.base64urlTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
