@@ -12,6 +12,7 @@
 		5CEE0DED208E2D1F005C191C /* base64url.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE0DEC208E2D1F005C191C /* base64url.podspec */; };
 		5CEE0DEF208E2F06005C191C /* Base64urlSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE0DEE208E2F06005C191C /* Base64urlSpec.swift */; };
 		5CEE0DF1208E2F2A005C191C /* Base64url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE0DF0208E2F2A005C191C /* Base64url.swift */; };
+		5CEE0DF3208F1801005C191C /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE0DF2208F1801005C191C /* Readme.md */; };
 		6607ADA7D8920A8C2CD73922 /* Pods_base64url.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD581277CE226E322D490831 /* Pods_base64url.framework */; };
 		AB84A2C4E77E01296D0B2173 /* Pods_base64url_base64urlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D859850EC154D8F2D399A67 /* Pods_base64url_base64urlTests.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		5CEE0DEC208E2D1F005C191C /* base64url.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = base64url.podspec; sourceTree = "<group>"; };
 		5CEE0DEE208E2F06005C191C /* Base64urlSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64urlSpec.swift; sourceTree = "<group>"; };
 		5CEE0DF0208E2F2A005C191C /* Base64url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64url.swift; sourceTree = "<group>"; };
+		5CEE0DF2208F1801005C191C /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		A48F4655DD61C3B7D1FE51CA /* Pods-base64url.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base64url.release.xcconfig"; path = "Pods/Target Support Files/Pods-base64url/Pods-base64url.release.xcconfig"; sourceTree = "<group>"; };
 		AE18AAF79FE3EAA3F9ED2CC8 /* Pods-base64url-base64urlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base64url-base64urlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD581277CE226E322D490831 /* Pods_base64url.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_base64url.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 		5CEE0DC7208E2923005C191C = {
 			isa = PBXGroup;
 			children = (
+				5CEE0DF2208F1801005C191C /* Readme.md */,
 				5CEE0DEB208E2C35005C191C /* Podfile */,
 				5CEE0DEC208E2D1F005C191C /* base64url.podspec */,
 				5CEE0DD3208E2923005C191C /* base64url */,
@@ -221,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEE0DF3208F1801005C191C /* Readme.md in Resources */,
 				5CEE0DED208E2D1F005C191C /* base64url.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
