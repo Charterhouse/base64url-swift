@@ -7,7 +7,7 @@ in that it only includes characters that can be used safely in a URL.
 Installation
 ------------
 
-You can add this framework to your Xcode project using [CocaoPods][2]. Add the following to your Podfile:
+You can add this framework to your Xcode project using [CocoaPods][2]. Add the following to your Podfile:
 
 ```
 pod 'base64url', '~> 1.0'
