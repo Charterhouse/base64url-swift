@@ -264,7 +264,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -275,7 +275,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-base64url-base64urlTests/Pods-base64url-base64urlTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		999938B34BA291764F75DCB6 /* [CP] Check Pods Manifest.lock */ = {

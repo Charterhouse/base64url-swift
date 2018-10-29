@@ -6,7 +6,7 @@ target 'base64url' do
 
   target 'base64urlTests' do
     pod 'Quick', '~> 1.3'
-    pod 'Nimble', '~> 7.1'
+    pod 'Nimble', '~> 7.3'
   end
 end
 
