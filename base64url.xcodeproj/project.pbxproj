@@ -36,7 +36,7 @@
 		5CEE0DD5208E2923005C191C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CEE0DDA208E2923005C191C /* base64urlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = base64urlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEE0DE1208E2923005C191C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CEE0DEB208E2C35005C191C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5CEE0DEB208E2C35005C191C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5CEE0DEC208E2D1F005C191C /* base64url.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = base64url.podspec; sourceTree = "<group>"; };
 		5CEE0DEE208E2F06005C191C /* Base64urlSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64urlSpec.swift; sourceTree = "<group>"; };
 		5CEE0DF0208E2F2A005C191C /* Base64url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64url.swift; sourceTree = "<group>"; };
