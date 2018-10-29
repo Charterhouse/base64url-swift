@@ -7,6 +7,7 @@ Pod::Spec.new do |spec|
   spec.summary = 'Provides base64url encoding for Swift'
   spec.swift_version = '4.1'
   spec.ios.deployment_target = '11.0'
+  spec.osx.deployment_target = '10.12'
   spec.source = {
     git: 'https://github.com/charterhouse/base64url-swift.git',
     tag: spec.version
